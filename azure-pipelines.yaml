@@ -14,7 +14,7 @@ stages:
   - job: Terraform_Apply
     displayName: 'Terraform Apply'
     pool:
-      vmImage: 'azure-agent-2'
+      name: 'self-hosted-pool-azure'
     steps:
 
 
